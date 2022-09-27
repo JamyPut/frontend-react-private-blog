@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.navigation-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  background-color: grey;
+  color: white;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.navigation-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-item{
+  padding: 5px;
+}
+
+.navigation-bar{
+}
