@@ -24,9 +24,6 @@ function App() {
               <Route exact path={"/login"}>
                   <LoginPage/>
               </Route>
-              <Route exact path={"/blogpost/:id"}>
-                  <BlogPost/>
-              </Route>
               <Route exact path={"/blogoverview"}>
                   <BlogOverview/>
               </Route>

@@ -17,9 +17,6 @@ function NavBar() {
                         <NavLink exact to={"/login"}>Login page</NavLink>
                     </li>
                     <li className={"navigation-item"}>
-                        <NavLink exact to={"/blogpost/:id"}>Blog posts</NavLink>
-                    </li>
-                    <li className={"navigation-item"}>
                         <NavLink exact to={"/blogoverview"}>Blog overview</NavLink>
                     </li>
                 </ul>

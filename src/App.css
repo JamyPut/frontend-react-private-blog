@@ -51,11 +51,25 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .navigation-item{
-  padding: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 5px 0 5px;
+  background-color: blue;
+  border-radius: 30px;
+  color: white;
 }
 
 .navigation-bar{
+}
+
+a:-webkit-any-link{
+  color: white;
+  text-decoration: none;
+}
+
+.active{
+  background-color: red;
 }
