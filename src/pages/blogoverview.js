@@ -12,7 +12,7 @@ function BlogOverview(){
                 <ul>
                     {posts.map((post) => {
                         return <li key={post.id}>
-                            <Link to={`blog/${post.id}`}>
+                            <Link to={"blog/${post.id}"}>
                                 {post.title}
                             </Link>
                         </li>
