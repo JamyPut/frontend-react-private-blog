@@ -4,7 +4,9 @@ import {Link} from "react-router-dom";
 function Home(){
 
     return(
-        <p>homepagina</p>
+        <div className={"page-outline"}>
+            <p>homepagina</p>
+        </div>
     )
 }
 export default Home;

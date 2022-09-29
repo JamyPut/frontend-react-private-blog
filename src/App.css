@@ -73,3 +73,9 @@ a:-webkit-any-link{
 .active{
   background-color: red;
 }
+
+.page-outline{
+  margin: 3px;
+  padding: 10px;
+  background-color: grey;
+}
